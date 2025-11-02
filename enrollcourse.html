@@ -1,0 +1,64 @@
+<html>
+    <head>
+       <script src="enrolled.js"></script>
+
+
+
+       <style>
+       .enrolledstudent{
+         width: 100%;
+         height: 10%;
+         font-size: 20px;
+         /* margin-top: 7%; */
+         text-align: center;
+         /* margin-left: 10%;
+         margin-right: 20%;
+          */
+          
+         
+       
+   }
+   body{
+        background-color: rgb(253, 253, 253);
+      }
+
+
+
+
+
+</style>
+
+    </head>
+    <body>
+
+        <h1 style="text-align: center;background-color: rgb(0, 53, 53);color: aliceblue;height: 50px;font-style: italic;">
+          Enrolled Students</h1>
+
+        <table border="=1" class="enrolledstudent">
+
+             <tr  style="background-color: rgb(13, 43, 43); color:white">
+                <th>Name</th>
+                <th>Email Id</th>
+                <th>Course</th>
+             </tr>
+
+
+             <tbody  id="enrolledstudent" style="background-color: rgb(209, 216, 223); border: 0;"></tbody>
+
+
+
+        </table>
+
+        <script >
+
+             window.onload=function(){
+                showenrolledstd();
+             };
+
+
+        </script>
+       
+
+
+    </body>
+</html>
