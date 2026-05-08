@@ -1,6 +1,6 @@
 function showcourses(){
 
-fetch("http://13.235.8.231:8080/courses")
+fetch("https://ski-contractor-wedding-knowledge.trycloudflare.com /courses")
 .then((Response) => Response.json())
 .then((courses)=>{
 
