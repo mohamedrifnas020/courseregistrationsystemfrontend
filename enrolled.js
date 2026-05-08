@@ -1,6 +1,6 @@
 function showenrolledstd(){
 
-fetch("https://courseregistrationsystembackend-production.up.railway.app/courses/enrolled" )
+fetch("http://13.235.8.231:8080/courses/enrolled" )
 .then((Response)=> Response.json())
 .then((enrolledstudents)=>{
 

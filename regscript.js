@@ -1,6 +1,6 @@
 function showcourses(){
 
-fetch("https://courseregistrationsystembackend-production.up.railway.app/courses")
+fetch("http://13.235.8.231:8080/courses")
 .then((Response) => Response.json())
 .then((courses)=>{
 
