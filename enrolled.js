@@ -1,6 +1,6 @@
 function showenrolledstd(){
 
-fetch("https://ski-contractor-wedding-knowledge.trycloudflare.com /courses/enrolled" )
+fetch("https://3.109.184.245/courses/enrolled" )
 .then((Response)=> Response.json())
 .then((enrolledstudents)=>{
 
