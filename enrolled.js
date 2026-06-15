@@ -1,6 +1,6 @@
 function showenrolledstd(){
 
-fetch("https://3.109.184.245/courses/enrolled" )
+fetch("http://15.207.223.217:8080/courses/enrolled" )
 .then((Response)=> Response.json())
 .then((enrolledstudents)=>{
 

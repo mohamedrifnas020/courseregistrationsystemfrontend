@@ -1,6 +1,6 @@
 function showcourses(){
 
-fetch("https://3.109.184.245/courses")
+fetch("http://15.207.223.217:8080/courses")
 .then((Response) => Response.json())
 .then((courses)=>{
 
